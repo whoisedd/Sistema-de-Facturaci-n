@@ -7,13 +7,13 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
 </p>
 
-## 🚀 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este es un **Sistema de Facturación** robusto y eficiente diseñado para la gestión integral de transacciones comerciales, emisión de comprobantes y control de inventario. El sistema está optimizado para ofrecer un alto rendimiento, garantizar la integridad de los datos financieros y proporcionar una arquitectura escalable lista para integraciones Fintech.
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
 *   **Gestión de Clientes y Proveedores:** Registro modular con estructuras de datos eficientes para búsquedas rápidas.
 *   **Emisión de Comprobantes:** Generación de facturas, notas de crédito y liquidaciones.
@@ -23,7 +23,7 @@ Este es un **Sistema de Facturación** robusto y eficiente diseñado para la ges
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 El núcleo del sistema está construido utilizando las siguientes tecnologías:
 
@@ -34,7 +34,7 @@ El núcleo del sistema está construido utilizando las siguientes tecnologías:
 
 ---
 
-## 📐 Arquitectura y Estructura de Datos
+## Arquitectura y Estructura de Datos
 
 Para garantizar la velocidad en las operaciones financieras, el sistema implementa:
 *   **Listas Enlazadas / Colas:** Para el procesamiento secuencial de las facturas en cola de espera.
@@ -42,7 +42,7 @@ Para garantizar la velocidad en las operaciones financieras, el sistema implemen
 
 ---
 
-## ⚙️ Instalación y Uso
+## Instalación y Uso
 
 ### Prerrequisitos
 *   Visual Studio Community 2026 (o superior).
