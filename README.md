@@ -1,54 +1,35 @@
-# Sistema de Facturación Electrónica
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-En%20Desarrollo-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/.NET-10.0-purple?style=for-the-badge&logo=.net" alt=".NET 10">
-  <img src="https://img.shields.io/badge/C%2B%2B-23-blue?style=for-the-badge&logo=c%2B%2B" alt="C++">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
-</p>
+# Sistema de Facturación Comercial
 
 ## Descripción del Proyecto
 
-Este es un **Sistema de Facturación** robusto y eficiente diseñado para la gestión integral de transacciones comerciales, emisión de comprobantes y control de inventario. El sistema está optimizado para ofrecer un alto rendimiento, garantizar la integridad de los datos financieros y proporcionar una arquitectura escalable lista para integraciones Fintech.
+Este es un Sistema de Facturación automatizado desarrollado íntegramente en Python utilizando Visual Studio Code. Está diseñado para la gestión integral de transacciones comerciales, cálculo preciso de impuestos, emisión de comprobantes digitales y control de inventario en tiempo real.
+
+El proyecto prioriza un código limpio, legible y modular, aprovechando las ventajas de flexibilidad y velocidad de desarrollo que ofrece Python.
 
 ---
 
 ## Características Principales
 
-*   **Gestión de Clientes y Proveedores:** Registro modular con estructuras de datos eficientes para búsquedas rápidas.
-*   **Emisión de Comprobantes:** Generación de facturas, notas de crédito y liquidaciones.
-*   **Control de Inventario:** Actualización automática de stock en tiempo real tras cada venta.
-*   **Cálculo de Impuestos Automático:** Soporte para desglose de IVA, descuentos y subtotales de manera exacta.
-*   **Historial y Reportes:** Módulo de auditoría para revisar transacciones pasadas y cierres de caja.
+*   Emisión de Facturas: Generación de comprobantes desglosando subtotales, descuentos e impuestos de forma automática.
+*   Gestión de Clientes y Productos: Módulos independientes para el registro, actualización y consulta de datos.
+*   Control de Stock Automatizado: El inventario se actualiza automáticamente tras cada venta para evitar inconsistencias.
+*   Persistencia de Datos: Almacenamiento estructurado de transacciones (por ejemplo, mediante archivos JSON, CSV o bases de datos relacionales).
+*   Exportación de Comprobantes: Capacidad de generar reportes o facturas en formatos legibles para el usuario.
 
 ---
 
-## Stack Tecnológico
+## Stack Tecnológico y Herramientas
 
-El núcleo del sistema está construido utilizando las siguientes tecnologías:
-
-*   **Lenguaje principal:** C++ / .NET 10 (C#) *[Selecciona/deja el que corresponda a tu proyecto]*
-*   **Entorno de Desarrollo:** Visual Studio Community 2026
-*   **Base de Datos:** SQL Server / PostgreSQL / Estructuras de datos en memoria (Listas enlazadas/Árboles)
-*   **Formato de Exportación:** JSON / PDF para las facturas emitidas.
+*   Lenguaje de Programación: Python 3.11 o superior.
+*   Entorno de Desarrollo (IDE): Visual Studio Code (VS Code).
+*   Extensiones recomendadas para VS Code: Python (Microsoft) y Pylance para autocompletado y análisis de código.
 
 ---
 
-## Arquitectura y Estructura de Datos
+## Estructura del Código y Datos
 
-Para garantizar la velocidad en las operaciones financieras, el sistema implementa:
-*   **Listas Enlazadas / Colas:** Para el procesamiento secuencial de las facturas en cola de espera.
-*   **Algoritmos de Búsqueda:** Optimización en la localización de productos y clientes mediante hashing o árboles de búsqueda.
+El sistema está diseñado bajo el paradigma de Programación Orientada a Objetos (POO) para asegurar la escalabilidad:
+*   Clases principales: Cliente, Producto y Factura modelan el dominio del negocio.
+*   Manipulación de Datos: Uso de diccionarios, listas nativas y estructuras optimizadas de Python para garantizar búsquedas eficientes y flujos de datos rápidos.
 
 ---
-
-## Instalación y Uso
-
-### Prerrequisitos
-*   Visual Studio Community 2026 (o superior).
-*   SDK de .NET 10 (si aplica).
-
-### Pasos para clonar y ejecutar
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone [https://github.com/tu-usuario/sistema-facturacion.git](https://github.com/tu-usuario/sistema-facturacion.git)
