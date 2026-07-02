@@ -1,4 +1,4 @@
-# 🧾 Sistema de Facturación Electrónica
+# Sistema de Facturación Electrónica
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-En%20Desarrollo-green?style=for-the-badge" alt="Status">
